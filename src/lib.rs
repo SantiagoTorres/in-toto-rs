@@ -9,11 +9,11 @@
     clippy::too_many_arguments
 )]
 
-pub mod runlib;
 pub mod crypto;
 pub mod error;
 pub mod interchange;
 pub mod models;
+pub mod runlib;
 pub mod verifylib;
 
 mod format_hex;

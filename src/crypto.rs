@@ -2,7 +2,6 @@
 
 use data_encoding::{BASE64URL, HEXLOWER};
 use derp::{self, Der, Tag};
-use ring;
 use ring::digest::{self, SHA256, SHA512};
 use ring::rand::SystemRandom;
 use ring::signature::{
@@ -887,6 +886,12 @@ impl HashAlgorithm {
                 s
             ))),
         }
+    }
+    pub fn return_all() -> HashMap<String, HashAlgorithm> {
+        let mut map = HashMap::new();
+        map.insert(String::from("sha256"), HashAlgorithm::Sha256);
+        map.insert(String::from("sha512"), HashAlgorithm::Sha512);
+        map
     }
 }
 

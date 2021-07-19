@@ -5,7 +5,6 @@ use std::io;
 use std::path::Path;
 use thiserror::Error;
 
-
 /// Error type for all in-toto related errors.
 #[derive(Error, Debug, PartialEq, Eq)]
 pub enum Error {
@@ -45,7 +44,7 @@ pub enum Error {
 
     /// There is no known or available hash algorithm.
     #[error("unknown hash algorithm: {0}")]
-    UnkonwnHashAlgorithm(String),
+    UnknownHashAlgorithm(String),
 
     /// There is no known or available key type.
     #[error("unknown key type: {0}")]

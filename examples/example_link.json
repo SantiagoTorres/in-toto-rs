@@ -1,0 +1,77 @@
+{
+  "signatures": [
+    {
+      "keyid": "e0294a3f17cc8563c3ed5fceb3bd8d3f6bfeeaca499b5c9572729ae015566554",
+      "sig": "9239111d2f81c106d83a087eb1bcb393e6c8ea588cb3a39a71d3dea560717250044095bd5d811f1ea8f8d882961c39c8a00ba32fddb14219ab36c4cdcd229007"
+    }
+  ],
+  "signed": {
+    "_type": "example",
+    "byproducts": {
+      "return-value": "0",
+      "stderr": "",
+      "stdout": ""
+    },
+    "env": {},
+    "materials": {
+      "tests/test_runlib/.hidden/.bar": {
+        "sha256": "b5bb9d8014a0f9b1d61e21e796d78dccdf1352f23cd32812f4850b878ae4944c",
+        "sha512": "0cf9180a764aba863a67b6d72f0918bc131c6772642cb2dce5a34f0a702f9470ddc2bf125c12198b1995c233c34b4afd346c54a2334c350a948a51b6e8b4e6b6"
+      },
+      "tests/test_runlib/.hidden/foo": {
+        "sha256": "7d865e959b2466918c9863afca942d0fb89d7c9ac0c99bafc3749504ded97730",
+        "sha512": "cc06808cbbee0510331aa97974132e8dc296aeb795be229d064bae784b0a87a5cf4281d82e8c99271b75db2148f08a026c1a60ed9cabdb8cac6d24242dac4063"
+      },
+      "tests/test_runlib/hello./symbolic_to_nonparent_folder/.bar": {
+        "sha256": "b5bb9d8014a0f9b1d61e21e796d78dccdf1352f23cd32812f4850b878ae4944c",
+        "sha512": "0cf9180a764aba863a67b6d72f0918bc131c6772642cb2dce5a34f0a702f9470ddc2bf125c12198b1995c233c34b4afd346c54a2334c350a948a51b6e8b4e6b6"
+      },
+      "tests/test_runlib/hello./symbolic_to_nonparent_folder/foo": {
+        "sha256": "7d865e959b2466918c9863afca942d0fb89d7c9ac0c99bafc3749504ded97730",
+        "sha512": "cc06808cbbee0510331aa97974132e8dc296aeb795be229d064bae784b0a87a5cf4281d82e8c99271b75db2148f08a026c1a60ed9cabdb8cac6d24242dac4063"
+      },
+      "tests/test_runlib/hello./world": {
+        "sha256": "25623b53e0984428da972f4c635706d32d01ec92dcd2ab39066082e0b9488c9d",
+        "sha512": "9b589a5fc9f43c3279e3a184f78b62738794913d976d74cd72f862864b8bc09b61f882273e9a64cbfea53c18782583f4bdc842ace58411824a4b15cd0d0c6ff9"
+      },
+      "tests/test_runlib/symbolic_to_file": {
+        "sha256": "25623b53e0984428da972f4c635706d32d01ec92dcd2ab39066082e0b9488c9d",
+        "sha512": "9b589a5fc9f43c3279e3a184f78b62738794913d976d74cd72f862864b8bc09b61f882273e9a64cbfea53c18782583f4bdc842ace58411824a4b15cd0d0c6ff9"
+      },
+      "tests/test_runlib/symbolic_to_license_file": {
+        "sha256": "61ed40687d2656636a04680013dffe41d5c724201edaa84045e0677b8e2064d6",
+        "sha512": "95df79b6a38f7e7c6b2c0393fcbc433b5d9f5f5b865467de992ff886965816bdf5e9f564390c9d38e3265396f338970a3335b1f3d6a67556e54100898af2e462"
+      }
+    },
+    "products": {
+      "tests/test_runlib/.hidden/.bar": {
+        "sha256": "b5bb9d8014a0f9b1d61e21e796d78dccdf1352f23cd32812f4850b878ae4944c",
+        "sha512": "0cf9180a764aba863a67b6d72f0918bc131c6772642cb2dce5a34f0a702f9470ddc2bf125c12198b1995c233c34b4afd346c54a2334c350a948a51b6e8b4e6b6"
+      },
+      "tests/test_runlib/.hidden/foo": {
+        "sha256": "7d865e959b2466918c9863afca942d0fb89d7c9ac0c99bafc3749504ded97730",
+        "sha512": "cc06808cbbee0510331aa97974132e8dc296aeb795be229d064bae784b0a87a5cf4281d82e8c99271b75db2148f08a026c1a60ed9cabdb8cac6d24242dac4063"
+      },
+      "tests/test_runlib/hello./symbolic_to_nonparent_folder/.bar": {
+        "sha256": "b5bb9d8014a0f9b1d61e21e796d78dccdf1352f23cd32812f4850b878ae4944c",
+        "sha512": "0cf9180a764aba863a67b6d72f0918bc131c6772642cb2dce5a34f0a702f9470ddc2bf125c12198b1995c233c34b4afd346c54a2334c350a948a51b6e8b4e6b6"
+      },
+      "tests/test_runlib/hello./symbolic_to_nonparent_folder/foo": {
+        "sha256": "7d865e959b2466918c9863afca942d0fb89d7c9ac0c99bafc3749504ded97730",
+        "sha512": "cc06808cbbee0510331aa97974132e8dc296aeb795be229d064bae784b0a87a5cf4281d82e8c99271b75db2148f08a026c1a60ed9cabdb8cac6d24242dac4063"
+      },
+      "tests/test_runlib/hello./world": {
+        "sha256": "25623b53e0984428da972f4c635706d32d01ec92dcd2ab39066082e0b9488c9d",
+        "sha512": "9b589a5fc9f43c3279e3a184f78b62738794913d976d74cd72f862864b8bc09b61f882273e9a64cbfea53c18782583f4bdc842ace58411824a4b15cd0d0c6ff9"
+      },
+      "tests/test_runlib/symbolic_to_file": {
+        "sha256": "25623b53e0984428da972f4c635706d32d01ec92dcd2ab39066082e0b9488c9d",
+        "sha512": "9b589a5fc9f43c3279e3a184f78b62738794913d976d74cd72f862864b8bc09b61f882273e9a64cbfea53c18782583f4bdc842ace58411824a4b15cd0d0c6ff9"
+      },
+      "tests/test_runlib/symbolic_to_license_file": {
+        "sha256": "61ed40687d2656636a04680013dffe41d5c724201edaa84045e0677b8e2064d6",
+        "sha512": "95df79b6a38f7e7c6b2c0393fcbc433b5d9f5f5b865467de992ff886965816bdf5e9f564390c9d38e3265396f338970a3335b1f3d6a67556e54100898af2e462"
+      }
+    }
+  }
+}
